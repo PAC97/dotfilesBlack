@@ -138,6 +138,8 @@ cp .Xresources ~/
 cp .fehbg ~/  
 cp -r .mpd ~/  
 cp -r .ncmpcpp ~/  
+cp -r .themes ~/  
+cp -r .icons ~/  
 ```  
 
 ## Configurar mpd   
