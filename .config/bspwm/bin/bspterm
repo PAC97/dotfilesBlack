@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# launch termite with other config
+if [ "$1" == "-f" ]; then
+	#alacritty --class alacritty-float,alacritty-float -d 72 20 --config-file ~/.config/alacritty/alacritty.yml
+	kitty --class kitty-float
+else
+	kitty 
+fi

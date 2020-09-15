@@ -1,0 +1,72 @@
+#!/bin/bash
+
+## Author : Aditya Shakya (adi1090x)
+## Mail : adi1090x@gmail.com
+## Github : @adi1090x
+## Reddit : @adi1090x
+
+DIR="$HOME/.config"
+
+rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
+
+uptime=$(uptime -p | sed -e 's/up //g')
+
+# Options
+shutdown=""
+reboot=""
+lock=""
+suspend=""
+logout=""
+
+# Variable passed to rofi
+options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
+
+chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 2)"
+case $chosen in
+    $shutdown)
+		ans=$($HOME/.config/rofi/bin/confirm)
+		if [[ $ans == "si" ]] || [[ $ans == "SI" ]] || [[ $ans == "s" ]]; then
+        systemctl poweroff
+		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
+        exit
+        else
+        rofi -theme ~/.config/rofi/themes/askpass.rasi -e "Opciones Disponibles  -  si / s / no / n"
+        fi
+        ;;
+    $reboot)
+		ans=$($HOME/.config/rofi/bin/confirm)
+		if [[ $ans == "si" ]] || [[ $ans == "SI" ]] || [[ $ans == "s" ]]; then
+        systemctl reboot
+		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
+        exit
+        else
+        rofi -theme ~/.config/rofi/themes/askpass.rasi -e "Opciones Disponibles  -  si / s / no / n"
+        fi
+        ;;
+    $lock)
+        betterlockscreen -l blur -t "Contraseña"
+        ;;
+    $suspend)
+		ans=$($HOME/.config/rofi/bin/confirm)
+		if [[ $ans == "si" ]] || [[ $ans == "SI" ]] || [[ $ans == "s" ]]; then
+        mpc -q pause
+        amixer set Master mute
+        betterlockscreen --suspend blur -t "Contraseña"
+		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
+        exit
+        else
+        rofi -theme ~/.config/rofi/themes/askpass.rasi -e "Opciones Disponibles  -  si / s / no / n"
+        fi
+        ;;
+    $logout)
+		ans=$($HOME/.config/rofi/bin/confirm)
+		if [[ $ans == "si" ]] || [[ $ans == "SI" ]] || [[ $ans == "s" ]]; then
+        bspc quit
+		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
+        exit
+        else
+        rofi -theme ~/.config/rofi/themes/askpass.rasi -e "Opciones Disponibles  -  si / s / no / n"
+        fi
+        ;;
+esac
+

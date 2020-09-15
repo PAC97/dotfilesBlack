@@ -1,0 +1,128 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: stop
+current: 75
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Scorpions - Still Loving You.flac
+1:Aerosmith - Crazy.flac
+2:Crush - Bon Jovi/10 - She's A Mystery.flac
+3:Crush - Bon Jovi/11 - I Got The Girl.flac
+4:Crush - Bon Jovi/12 - One Wild Night.flac
+5:Crush - Bon Jovi/2 - Say It Isn't So.flac
+6:Crush - Bon Jovi/3 - Thank You For Loving Me.flac
+7:Vivir para Contarlo - Violadores del Verso/1 - Filosofía y Letras.flac
+8:Vivir para Contarlo - Violadores del Verso/10 - Alergia.flac
+9:Vivir para Contarlo - Violadores del Verso/11 - Vivir para Contarlo.flac
+10:Vivir para Contarlo - Violadores del Verso/12 - No Somos Ciegos.flac
+11:Vivir para Contarlo - Violadores del Verso/13 - Zombis.flac
+12:Vivir para Contarlo - Violadores del Verso/14 - Dale Tiempo al Rumor.flac
+13:El Círculo - KaseO/1 - Intro (El Círculo).flac
+14:El Círculo - KaseO/10 - Mazas y Catapultas.flac
+15:El Círculo - KaseO/11 - Amor Sin Cláusulas.flac
+16:El Círculo - KaseO/6 - Viejos Ciegos.flac
+17:El Círculo - KaseO/5 - Guapo Tarde.flac
+18:Nach - Mejor que el silencio/Nach - Mejor que el silencio/01-Hambre de victoria.mp3
+19:Nach - Mejor que el silencio/Nach - Mejor que el silencio/02-Pensando en voz alta.mp3
+20:Nach - Mejor que el silencio/Nach - Mejor que el silencio/03- Disparos de silencio - con Wöyza .mp3
+21:reggaeton viejo/3BallMTY - Inténtalo (Album Version).flac
+22:reggaeton viejo/Alexis & Fido - 5 Letras.flac
+23:reggaeton viejo/3BallMTY - Inténtalo (Album Version).flac
+24:reggaeton viejo/Alexis & Fido - 5 Letras.flac
+25:reggaeton viejo/Big Yamo - Tocarte Toa.flac
+26:reggaeton viejo/Calle 13 - Atrévete-Te-Te.flac
+27:reggaeton viejo/Chino & Nacho - Niña Bonita.flac
+28:reggaeton viejo/Chino & Nacho - Tu Angelito (Album Version).flac
+29:reggaeton viejo/Daddy Yankee - ¿Qué Tengo Que Hacer_.flac
+30:reggaeton viejo/Daddy Yankee - Descontrol.flac
+31:reggaeton viejo/Daddy Yankee - Ella Me Levanto.flac
+32:reggaeton viejo/Daddy Yankee - La Nueva Y La Ex.flac
+33:reggaeton viejo/Daddy Yankee - Llamado de Emergencia.flac
+34:reggaeton viejo/Daddy Yankee - Llegamos A La Disco.flac
+35:reggaeton viejo/Daddy Yankee - Lo Que Pasó, Pasó.flac
+36:reggaeton viejo/Daddy Yankee - Noche De Entierro (Nuestro Amor).flac
+37:reggaeton viejo/Daddy Yankee - Perros Salvajes.flac
+38:reggaeton viejo/Daddy Yankee - Pose.flac
+39:reggaeton viejo/Daddy Yankee - Tu Príncipe.flac
+40:reggaeton viejo/DJ Memo - Zundada.flac
+41:reggaeton viejo/Don Omar - Danza Kuduro.flac
+42:reggaeton viejo/Don Omar - Dile.flac
+43:reggaeton viejo/Don Omar - Virtual Diva.flac
+44:reggaeton viejo/Prince Royce - Darte un Beso.flac
+45:reggaeton viejo/Randy - Sensación del Bloque.flac
+46:reggaeton viejo/Romeo Santos - Propuesta Indecente.flac
+47:reggaeton viejo/Tito El Bambino - Mi Cama Huele a Ti.flac
+48:reggaeton viejo/Tony Dize - Quizas (Remix).flac
+49:reggaeton viejo/Wisin & Yandel - Ahora Es.flac
+50:reggaeton viejo/Wisin & Yandel - El Telefono (Album Version).flac
+51:reggaeton viejo/Wisin & Yandel - Estoy Enamorado.flac
+52:reggaeton viejo/Wisin & Yandel - Sexy Movimiento.flac
+53:reggaeton viejo/Xtreme - Te Extraño (Bachata Version).flac
+54:Crush - Bon Jovi/1 - It's My Life.flac
+55:Crush - Bon Jovi/1 - It's My Life.flac
+56:Crush - Bon Jovi/10 - She's A Mystery.flac
+57:Crush - Bon Jovi/11 - I Got The Girl.flac
+58:Crush - Bon Jovi/12 - One Wild Night.flac
+59:Crush - Bon Jovi/2 - Say It Isn't So.flac
+60:Crush - Bon Jovi/3 - Thank You For Loving Me.flac
+61:Crush - Bon Jovi/4 - Two Story Town.flac
+62:Crush - Bon Jovi/5 - Next 100 Years.flac
+63:Crush - Bon Jovi/6 - Just Older.flac
+64:Crush - Bon Jovi/7 - Mystery Train.flac
+65:Crush - Bon Jovi/8 - Save The World.flac
+66:Crush - Bon Jovi/9 - Captain Crash & The Beauty Queen From Mars.flac
+67:Slippery When Wet - Bon Jovi/1 - Let It Rock.flac
+68:Slippery When Wet - Bon Jovi/10 - Wild In The Streets.flac
+69:Slippery When Wet - Bon Jovi/2 - You Give Love A Bad Name.flac
+70:Slippery When Wet - Bon Jovi/3 - Livin' On A Prayer.flac
+71:Slippery When Wet - Bon Jovi/4 - Social Disease.flac
+72:Slippery When Wet - Bon Jovi/5 - Wanted Dead Or Alive.flac
+73:Slippery When Wet - Bon Jovi/6 - Raise Your Hands.flac
+74:Slippery When Wet - Bon Jovi/7 - Without Love.flac
+75:Slippery When Wet - Bon Jovi/8 - I'd Die For You.flac
+76:Slippery When Wet - Bon Jovi/9 - Never Say Goodbye.flac
+77:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/1 - This House Is Not For Sale (Live From The London Palladium).flac
+78:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/10 - God Bless This Mess (Live From The London Palladium).flac
+79:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/11 - Reunion (Live From The London Palladium).flac
+80:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/12 - Real Love (Live From The London Palladium).flac
+81:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/13 - All Hail The King (Live From The London Palladium).flac
+82:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/14 - We Don't Run (Live From The London Palladium).flac
+83:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/15 - Come On Up To Our House (Live From The London Palladium).flac
+84:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/2 - Living With The Ghost (Live From The London Palladium).flac
+85:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/3 - Knockout (Live From The London Palladium).flac
+86:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/4 - Labor Of Love (Live From The London Palladium).flac
+87:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/5 - Born Again Tomorrow (Live From The London Palladium).flac
+88:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/6 - Roller Coaster (Live From The London Palladium).flac
+89:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/7 - New Year's Day (Live From The London Palladium).flac
+90:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/8 - The Devil's In The Temple (Live From The London Palladium).flac
+91:This House Is Not For Sale (Live From The London Palladium) - Bon Jovi/9 - Scars On This Guitar (Live From The London Palladium).flac
+92:Use Your Illusion I - Guns N' Roses/10 - November Rain.flac
+93:Use Your Illusion I - Guns N' Roses/11 - The Garden (Album Version).flac
+94:Use Your Illusion I - Guns N' Roses/12 - Garden Of Eden (Album Version Explicit).flac
+95:Use Your Illusion I - Guns N' Roses/13 - Don't Damn Me (Album Version).flac
+96:Use Your Illusion I - Guns N' Roses/14 - Bad Apples (Album Version Explicit).flac
+97:Use Your Illusion I - Guns N' Roses/15 - Dead Horse (Album Version).flac
+98:Use Your Illusion I - Guns N' Roses/16 - Coma (Album Version Explicit).flac
+99:Use Your Illusion I - Guns N' Roses/2 - Dust N' Bones (Album Version Explicit).flac
+100:Use Your Illusion I - Guns N' Roses/3 - Live And Let Die.flac
+101:Use Your Illusion I - Guns N' Roses/4 - Don't Cry (Original).flac
+102:Use Your Illusion I - Guns N' Roses/5 - Perfect Crime (Album Version Explicit).flac
+103:Use Your Illusion I - Guns N' Roses/6 - You Ain't The First (Album Version).flac
+104:Use Your Illusion I - Guns N' Roses/7 - Bad Obsession (Album Version Explicit).flac
+105:Use Your Illusion I - Guns N' Roses/8 - Back Off Bitch (Album Version Explicit).flac
+106:Use Your Illusion I - Guns N' Roses/9 - Double Talkin' Jive (Album Version Explicit).flac
+107:Aerosmith - Crazy.flac
+108:Aerosmith - I Don't Want to Miss a Thing (From _Armageddon_ Soundtrack - Pop Mix).flac
+109:Scorpions - Rock You Like a Hurricane.flac
+110:Scorpions - Still Loving You.flac
+111:Scorpions - Wind Of Change.flac
+112:The Outfield - All The Love In The World.flac
+113:The Outfield - Your Love.flac
+playlist_end
