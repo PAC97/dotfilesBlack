@@ -128,7 +128,7 @@ $ sudo pip3 install ueberzug
 
 ## Instalar Dotfiles 
 ``` 
-git clone https://github.com/PAC97/dotfiles.git  
+git clone https://github.com/PAC97/dotfilesBlack.git 
 cd dotfiles  
 cp -r .config/* ~/.config  
 sudo cp -r fonts/* /usr/share/fonts   
