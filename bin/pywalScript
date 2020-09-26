@@ -1,0 +1,20 @@
+#!/bin/bash
+DIR="$HOME/.cache/wal"
+
+while getopts i: flag
+	do
+	    case "${flag}" in
+	        i) imagePath=${OPTARG};;
+	    esac
+	done
+	applyColors(){
+	wal -i $imagePath;
+	cp $DIR/colors.Xresources $HOME/.Xresources.d/colors
+	bspc wm -r
+	}
+
+	main () {
+	applyColors
+}
+
+main
